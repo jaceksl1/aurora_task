@@ -1,5 +1,5 @@
 // variables
-@background_color_white: #fff;
+@color_white: #fff;
 @color_txt_main: #000;
 @promo_font_color: rgb(255, 192, 203);
 @promo_font_color_light: rgb(255, 224, 229);
@@ -10,7 +10,7 @@
 @desktop_max_width: 1240px;
 @font_family_main: Arial, Helvetica, sans-serif;
 @font_size_mobile: 12px;
-@font_size_desktop: 16px;
+@font_size_desktop: 15px;
 @border_line_style: 1px solid @border_color;
 
 
@@ -23,7 +23,7 @@
 }
 
 body {
-    background-color: @background_color_white;
+    background-color: @color_white;
     font-family: @font_family_main;
 }
 
@@ -81,6 +81,37 @@ body {
                             border-radius: 0;
                             padding: 0 @space_s;
                         }
+
+                        .login,
+                        .register {
+                            border-radius: 0;
+                            padding: 0 @space_s;
+                        
+                            &:hover {
+                                background-color: @promo_font_color_light;
+
+                                i {
+                                    scale: 1.25;
+                                }
+                            }
+                        }
+
+                        .phone,
+                        .email {
+                            &:hover {
+                                a {
+                                    text-decoration: underline;
+                                }
+
+                                i {
+                                    scale: 1.25;
+                                }
+                            }
+                        }
+                    }
+
+                    .account-content {
+                        gap: 0;
                     }
                 }
             }
@@ -125,6 +156,10 @@ body {
                     border-bottom: @border_line_style;
                     width: 100%;
                     background-color: transparent;
+
+                    &::placeholder {
+                        padding: @space_s;
+                    }
                 }
 
                 i {
@@ -253,7 +288,7 @@ body {
                                 right: 100%;
                                 z-index: 10;
                                 width: 100%;
-                                background-color: @background_color_white;
+                                background-color: @color_white;
                                 
                                 &.hidden {
                                     display: block;
@@ -290,6 +325,7 @@ body {
                                         list-style: none;
                                         font-weight: 600;
                                         margin: @space_s 0;
+                                        text-transform: uppercase;
 
                                         a {
                                             &:hover {
@@ -373,7 +409,48 @@ body {
 
                             .link {
                                 &.cart {
+                                    display: flex;
 
+                                    i {
+                                        position: relative;
+
+                                        &:after {
+                                            content: '2';
+                                            position: absolute;
+                                            bottom: -25px;
+                                            right: -10px;
+                                            font-size: 10px;
+                                            background-color: @promo_font_color;
+                                            padding: 9px 7px;
+                                            border-radius: 50%;
+                                            color: @color_white;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .header-nav-wrapper {
+                        border-bottom: @border_line_style;
+                        padding-bottom: @space_m;
+
+                        .header-topmenu {
+                            .item {
+                                text-transform: uppercase;
+                                font-weight: 600;
+                                font-size: @font_size_desktop;
+
+                                &.sale {
+                                    .link {
+                                        color: @promo_font_color;
+                                    }
+                                }
+
+                                &:hover {
+                                    .link {
+                                        text-decoration: underline;
+                                    }
                                 }
                             }
                         }

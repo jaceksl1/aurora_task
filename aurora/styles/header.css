@@ -69,6 +69,40 @@ body {
   border-radius: 0;
   padding: 0 20px;
 }
+.page-wrapper .nav-wrapper .page-header .panel-wrapper .panel-content-wrapper .contact-wrapper .login,
+.page-wrapper .nav-wrapper .page-header .panel-wrapper .panel-content-wrapper .account-content .login,
+.page-wrapper .nav-wrapper .page-header .panel-wrapper .panel-content-wrapper .contact-wrapper .register,
+.page-wrapper .nav-wrapper .page-header .panel-wrapper .panel-content-wrapper .account-content .register {
+  border-radius: 0;
+  padding: 0 20px;
+}
+.page-wrapper .nav-wrapper .page-header .panel-wrapper .panel-content-wrapper .contact-wrapper .login:hover,
+.page-wrapper .nav-wrapper .page-header .panel-wrapper .panel-content-wrapper .account-content .login:hover,
+.page-wrapper .nav-wrapper .page-header .panel-wrapper .panel-content-wrapper .contact-wrapper .register:hover,
+.page-wrapper .nav-wrapper .page-header .panel-wrapper .panel-content-wrapper .account-content .register:hover {
+  background-color: #ffe0e5;
+}
+.page-wrapper .nav-wrapper .page-header .panel-wrapper .panel-content-wrapper .contact-wrapper .login:hover i,
+.page-wrapper .nav-wrapper .page-header .panel-wrapper .panel-content-wrapper .account-content .login:hover i,
+.page-wrapper .nav-wrapper .page-header .panel-wrapper .panel-content-wrapper .contact-wrapper .register:hover i,
+.page-wrapper .nav-wrapper .page-header .panel-wrapper .panel-content-wrapper .account-content .register:hover i {
+  scale: 1.25;
+}
+.page-wrapper .nav-wrapper .page-header .panel-wrapper .panel-content-wrapper .contact-wrapper .phone:hover a,
+.page-wrapper .nav-wrapper .page-header .panel-wrapper .panel-content-wrapper .account-content .phone:hover a,
+.page-wrapper .nav-wrapper .page-header .panel-wrapper .panel-content-wrapper .contact-wrapper .email:hover a,
+.page-wrapper .nav-wrapper .page-header .panel-wrapper .panel-content-wrapper .account-content .email:hover a {
+  text-decoration: underline;
+}
+.page-wrapper .nav-wrapper .page-header .panel-wrapper .panel-content-wrapper .contact-wrapper .phone:hover i,
+.page-wrapper .nav-wrapper .page-header .panel-wrapper .panel-content-wrapper .account-content .phone:hover i,
+.page-wrapper .nav-wrapper .page-header .panel-wrapper .panel-content-wrapper .contact-wrapper .email:hover i,
+.page-wrapper .nav-wrapper .page-header .panel-wrapper .panel-content-wrapper .account-content .email:hover i {
+  scale: 1.25;
+}
+.page-wrapper .nav-wrapper .page-header .panel-wrapper .panel-content-wrapper .account-content {
+  gap: 0;
+}
 .page-wrapper .nav-wrapper .page-header .panel-content-wrapper,
 .page-wrapper .nav-wrapper .page-header .search-cart-wrapper,
 .page-wrapper .nav-wrapper .page-header .header-nav-wrapper {
@@ -104,6 +138,9 @@ body {
   border-bottom: 1px solid #D2D2D2;
   width: 100%;
   background-color: transparent;
+}
+.page-wrapper .nav-wrapper .page-header .search input::placeholder {
+  padding: 20px;
 }
 .page-wrapper .nav-wrapper .page-header .search i {
   position: absolute;
@@ -236,6 +273,7 @@ body {
     list-style: none;
     font-weight: 600;
     margin: 20px 0;
+    text-transform: uppercase;
   }
   .page-wrapper .nav-wrapper .page-header.mobile .header-wrapper-mobile .mobile-nav-wrapper .mobile-nav .items-wrapper .item a:hover {
     text-decoration: underline;
@@ -299,5 +337,37 @@ body {
   }
   .page-wrapper .nav-wrapper .page-header .header-wrapper-desktop .search-cart-wrapper .inner-wrapper .search {
     width: 70%;
+  }
+  .page-wrapper .nav-wrapper .page-header .header-wrapper-desktop .search-cart-wrapper .inner-wrapper .link.cart {
+    display: flex;
+  }
+  .page-wrapper .nav-wrapper .page-header .header-wrapper-desktop .search-cart-wrapper .inner-wrapper .link.cart i {
+    position: relative;
+  }
+  .page-wrapper .nav-wrapper .page-header .header-wrapper-desktop .search-cart-wrapper .inner-wrapper .link.cart i:after {
+    content: '2';
+    position: absolute;
+    bottom: -25px;
+    right: -10px;
+    font-size: 10px;
+    background-color: #ffc0cb;
+    padding: 9px 7px;
+    border-radius: 50%;
+    color: #fff;
+  }
+  .page-wrapper .nav-wrapper .page-header .header-wrapper-desktop .header-nav-wrapper {
+    border-bottom: 1px solid #D2D2D2;
+    padding-bottom: 30px;
+  }
+  .page-wrapper .nav-wrapper .page-header .header-wrapper-desktop .header-nav-wrapper .header-topmenu .item {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .page-wrapper .nav-wrapper .page-header .header-wrapper-desktop .header-nav-wrapper .header-topmenu .item.sale .link {
+    color: #ffc0cb;
+  }
+  .page-wrapper .nav-wrapper .page-header .header-wrapper-desktop .header-nav-wrapper .header-topmenu .item:hover .link {
+    text-decoration: underline;
   }
 }
