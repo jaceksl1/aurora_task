@@ -1,0 +1,341 @@
+.panel-wrapper {
+  border-bottom: 1px solid #D2D2D2;
+  min-height: 60px;
+  margin-bottom: 10px;
+}
+.panel-wrapper .panel-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  max-width: 1240px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper,
+.panel-wrapper .panel-content-wrapper .account-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .phone,
+.panel-wrapper .panel-content-wrapper .account-content .phone,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .email,
+.panel-wrapper .panel-content-wrapper .account-content .email,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .login,
+.panel-wrapper .panel-content-wrapper .account-content .login,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .register,
+.panel-wrapper .panel-content-wrapper .account-content .register {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 60px;
+  font-size: 12px;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .phone i,
+.panel-wrapper .panel-content-wrapper .account-content .phone i,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .email i,
+.panel-wrapper .panel-content-wrapper .account-content .email i,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .login i,
+.panel-wrapper .panel-content-wrapper .account-content .login i,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .register i,
+.panel-wrapper .panel-content-wrapper .account-content .register i {
+  color: #ffc0cb;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .login,
+.panel-wrapper .panel-content-wrapper .account-content .login {
+  border: 1px solid #D2D2D2;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 0;
+  padding: 0 20px;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .login,
+.panel-wrapper .panel-content-wrapper .account-content .login,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .register,
+.panel-wrapper .panel-content-wrapper .account-content .register {
+  border-radius: 0;
+  padding: 0 20px;
+  transition: 0.5s;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .login:hover,
+.panel-wrapper .panel-content-wrapper .account-content .login:hover,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .register:hover,
+.panel-wrapper .panel-content-wrapper .account-content .register:hover {
+  background-color: #ffe0e5;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .login:hover i,
+.panel-wrapper .panel-content-wrapper .account-content .login:hover i,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .register:hover i,
+.panel-wrapper .panel-content-wrapper .account-content .register:hover i {
+  scale: 1.75;
+  transition: 0.5s;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper {
+  border-bottom: 1px solid #D2D2D2;
+  min-height: 60px;
+  margin-bottom: 10px;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  max-width: 1240px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .contact-wrapper,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .contact-wrapper,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .account-content,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .account-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .contact-wrapper .phone,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .contact-wrapper .phone,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .account-content .phone,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .account-content .phone,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .contact-wrapper .email,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .contact-wrapper .email,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .account-content .email,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .account-content .email,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .contact-wrapper .login,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .contact-wrapper .login,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .account-content .login,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .account-content .login,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .contact-wrapper .register,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .contact-wrapper .register,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .account-content .register,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .account-content .register {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 60px;
+  font-size: 12px;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .contact-wrapper .phone i,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .contact-wrapper .phone i,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .account-content .phone i,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .account-content .phone i,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .contact-wrapper .email i,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .contact-wrapper .email i,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .account-content .email i,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .account-content .email i,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .contact-wrapper .login i,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .contact-wrapper .login i,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .account-content .login i,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .account-content .login i,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .contact-wrapper .register i,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .contact-wrapper .register i,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .account-content .register i,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .account-content .register i {
+  color: #ffc0cb;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .contact-wrapper .login,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .contact-wrapper .login,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .account-content .login,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .account-content .login {
+  border: 1px solid #D2D2D2;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 0;
+  padding: 0 20px;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .contact-wrapper .login,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .contact-wrapper .login,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .account-content .login,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .account-content .login,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .contact-wrapper .register,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .contact-wrapper .register,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .account-content .register,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .account-content .register {
+  border-radius: 0;
+  padding: 0 20px;
+  transition: 0.5s;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .contact-wrapper .login:hover,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .contact-wrapper .login:hover,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .account-content .login:hover,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .account-content .login:hover,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .contact-wrapper .register:hover,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .contact-wrapper .register:hover,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .account-content .register:hover,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .account-content .register:hover {
+  background-color: #ffe0e5;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .contact-wrapper .login:hover i,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .contact-wrapper .login:hover i,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .account-content .login:hover i,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .account-content .login:hover i,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .contact-wrapper .register:hover i,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .contact-wrapper .register:hover i,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .account-content .register:hover i,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .account-content .register:hover i {
+  scale: 1.75;
+  transition: 0.5s;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .contact-wrapper .phone:hover a,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .contact-wrapper .phone:hover a,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .account-content .phone:hover a,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .account-content .phone:hover a,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .contact-wrapper .email:hover a,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .contact-wrapper .email:hover a,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .account-content .email:hover a,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .account-content .email:hover a {
+  text-decoration: underline;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .contact-wrapper .phone:hover i,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .contact-wrapper .phone:hover i,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .account-content .phone:hover i,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .account-content .phone:hover i,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .contact-wrapper .email:hover i,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .contact-wrapper .email:hover i,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .account-content .email:hover i,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .account-content .email:hover i {
+  scale: 1.25;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-wrapper .panel-content-wrapper .account-content,
+.panel-wrapper .panel-content-wrapper .account-content .panel-wrapper .panel-content-wrapper .account-content {
+  gap: 0;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .contact-wrapper,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .contact-wrapper,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .account-content,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .account-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .contact-wrapper .phone,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .contact-wrapper .phone,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .account-content .phone,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .account-content .phone,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .contact-wrapper .email,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .contact-wrapper .email,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .account-content .email,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .account-content .email,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .contact-wrapper .link,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .contact-wrapper .link,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .account-content .link,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .account-content .link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .contact-wrapper .phone:hover a,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .contact-wrapper .phone:hover a,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .account-content .phone:hover a,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .account-content .phone:hover a,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .contact-wrapper .email:hover a,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .contact-wrapper .email:hover a,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .account-content .email:hover a,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .account-content .email:hover a,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .contact-wrapper .link:hover a,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .contact-wrapper .link:hover a,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .account-content .link:hover a,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .account-content .link:hover a,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .contact-wrapper .phone:hover span,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .contact-wrapper .phone:hover span,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .account-content .phone:hover span,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .account-content .phone:hover span,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .contact-wrapper .email:hover span,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .contact-wrapper .email:hover span,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .account-content .email:hover span,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .account-content .email:hover span,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .contact-wrapper .link:hover span,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .contact-wrapper .link:hover span,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .account-content .link:hover span,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .account-content .link:hover span {
+  text-decoration: underline;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .contact-wrapper i,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .contact-wrapper i,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .panel-content-wrapper-mobile .account-content i,
+.panel-wrapper .panel-content-wrapper .account-content .panel-content-wrapper-mobile .account-content i {
+  color: #ffc0cb;
+}
+@media only screen and (min-width: 1024px) {
+  .panel-wrapper .panel-content-wrapper .contact-wrapper .page-wrapper .nav-wrapper .page-header .header-wrapper-desktop .panel-content-wrapper,
+  .panel-wrapper .panel-content-wrapper .account-content .page-wrapper .nav-wrapper .page-header .header-wrapper-desktop .panel-content-wrapper {
+    padding: 0 20px;
+  }
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .phone:hover a,
+.panel-wrapper .panel-content-wrapper .account-content .phone:hover a,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .email:hover a,
+.panel-wrapper .panel-content-wrapper .account-content .email:hover a {
+  text-decoration: underline;
+}
+.panel-wrapper .panel-content-wrapper .contact-wrapper .phone:hover i,
+.panel-wrapper .panel-content-wrapper .account-content .phone:hover i,
+.panel-wrapper .panel-content-wrapper .contact-wrapper .email:hover i,
+.panel-wrapper .panel-content-wrapper .account-content .email:hover i {
+  scale: 1.25;
+}
+.panel-wrapper .panel-content-wrapper .account-content {
+  gap: 0;
+}
+.panel-content-wrapper-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.panel-content-wrapper-mobile .contact-wrapper,
+.panel-content-wrapper-mobile .account-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.panel-content-wrapper-mobile .contact-wrapper .phone,
+.panel-content-wrapper-mobile .account-content .phone,
+.panel-content-wrapper-mobile .contact-wrapper .email,
+.panel-content-wrapper-mobile .account-content .email,
+.panel-content-wrapper-mobile .contact-wrapper .link,
+.panel-content-wrapper-mobile .account-content .link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.panel-content-wrapper-mobile .contact-wrapper .phone:hover a,
+.panel-content-wrapper-mobile .account-content .phone:hover a,
+.panel-content-wrapper-mobile .contact-wrapper .email:hover a,
+.panel-content-wrapper-mobile .account-content .email:hover a,
+.panel-content-wrapper-mobile .contact-wrapper .link:hover a,
+.panel-content-wrapper-mobile .account-content .link:hover a,
+.panel-content-wrapper-mobile .contact-wrapper .phone:hover span,
+.panel-content-wrapper-mobile .account-content .phone:hover span,
+.panel-content-wrapper-mobile .contact-wrapper .email:hover span,
+.panel-content-wrapper-mobile .account-content .email:hover span,
+.panel-content-wrapper-mobile .contact-wrapper .link:hover span,
+.panel-content-wrapper-mobile .account-content .link:hover span {
+  text-decoration: underline;
+}
+.panel-content-wrapper-mobile .contact-wrapper i,
+.panel-content-wrapper-mobile .account-content i {
+  color: #ffc0cb;
+}
+@media only screen and (min-width: 1024px) {
+  .page-wrapper .nav-wrapper .page-header .header-wrapper-desktop .panel-content-wrapper {
+    padding: 0 20px;
+  }
+}
